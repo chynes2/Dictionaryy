@@ -2,4 +2,5 @@
 A python personal dictionary app
 
 ### Includes
-dictionaryy.py, My_Dictionary.csv
+dictionaryy.py -- runs the app
+My_Dictionary.csv -- stores the dictionary data
