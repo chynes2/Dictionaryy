@@ -1,5 +1,5 @@
-# Dictionaryy :: an app that makes a personal dictionary,
-#  which you can study like flashcards
+""" Dictionaryy :: an app that makes a personal dictionary,
+which you can study like flashcards"""
 
 import csv
 from random import randint
