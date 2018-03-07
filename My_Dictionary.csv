@@ -38,7 +38,6 @@ aphonia,{'Noun': ['a disorder of the vocal organs that results in the loss of vo
 apiary,{'Noun': ['a shed containing a number of beehives']}
 apical,{'Adjective': ['situated at an apex']}
 aplomb,{'Noun': ['great coolness and composure under strain']}
-apochrypha,
 apocryphal,"{'Adjective': ['being of questionable authenticity', 'of or belonging to the Apocrypha']}"
 apothegm,{'Noun': ['a short pithy instructive saying']}
 appellation,"{'Noun': ['identifying word or words by which someone or something is called and classified or distinguished from others', 'a geographical indication used to identify where the grapes for a wine are grown']}"
@@ -84,7 +83,6 @@ catabolic,"{'Adjective': ['relating to or characterized by catabolism', 'charact
 catabolism,{'Noun': ['breakdown in living organisms of more complex substances into simpler ones together with release of energy']}
 catastate,{'noun': ['A substance formed by a catabolic process.']}
 catastates,{'noun': ['Plural form of catastate.']}
-catastatic,{None: ['Of or relating to catastates.']}
 caviling,{'Verb': ['raise trivial objections']}
 cavort,{'Verb': ['play boisterously']}
 cenotaphs,{'Noun': ['a monument built to honor people whose remains are interred elsewhere or whose remains cannot be recovered']}
@@ -213,8 +211,6 @@ immured,"{'Verb': ['lock up or confine, in or as in a jail']}"
 impartible,{'adjective': ['Not partible; indivisible:  an impartible inheritance. ']}
 impassive,"{'Adjective': ['having or revealing little emotion or sensibility; not easily aroused or excited', 'deliberately impassive in manner']}"
 impecunious,{'Adjective': ['not having enough money to pay for necessities']}
-impicunious,
-impicunius,
 increscent,{'adjective': ['Showing a progressively larger lighted surface; waxing:  the increscent moon. ']}
 inguinal,{'Adjective': ['of or relating to or near the groin']}
 inimitable,{'Adjective': ['defying imitation; matchless']}

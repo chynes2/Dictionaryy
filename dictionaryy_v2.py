@@ -36,9 +36,9 @@ def read_dictionary_from_file():
 def print_definition(d, word):
     defn_str = d[d.Word == word]['Definition'].values[0]
     for pos, defn_list in ast.literal_eval(defn_str).items():
-        print(pos + ":")
+        print("    ", pos + ":")
         for defn in defn_list:
-            print("  ", defn, "\n")
+            print("      ", defn, "\n")
     
 # study a random word like a flashcard
 def study(d):
@@ -51,8 +51,9 @@ def study(d):
     print("\n###############################\n\n\n")
 
 def delete_card(d, word):
-    print(len(d), ">>", len(d[d.Word != word]))
+    print("Words:", len(d), ">>", len(d[d.Word != word]))
     d = d[d.Word != word].reset_index(drop=True)
+    write_dictionary_to_file(d)
     return(d)
 
 def add_card(d, clients, word):
@@ -71,9 +72,11 @@ def add_card(d, clients, word):
                     defn = {}
                     for dfn in defn_data:
                         defn[dfn.partOfSpeech] = [dfn.text]
-
+            if defn in [None, {}] and ctype == 'Wordnik':
+                print("\nWord not found in these clients:", [d for d in clients.keys()], "\n")
+                return(d)
             if defn in [None, {}]:
-                print("NULLITY!")
+                continue
             else:
                 break
 
@@ -125,7 +128,9 @@ def main():
             word_to_del = input("Word to delete: ")
             d = delete_card(d, word_to_del)
         elif choice == "p":
-            print(d)
+            for index, row in d.iterrows():
+                print(row[0], "\n")
+                print_definition(d, row[0])
         elif choice == "q":
             return
         else:
