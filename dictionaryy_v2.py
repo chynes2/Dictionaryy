@@ -45,7 +45,7 @@ def study(d):
     rand_index = randint(0,len(d)-1)
     word = d.Word[rand_index]
     print(word)
-    input("Press Enter to see the definition!")
+    input("Press Enter to see the definition!\n")
     print("\n#####  Definition  ############\n")
     print_definition(d, word)
     print("\n###############################\n\n\n")
@@ -60,6 +60,7 @@ def add_card(d, clients, word):
     # what if the word already exists in the dictionary?!
     if word in set(d.Word.values): # if it exists, print the below and quit
         print("This word already exists in the dictionary!")
+        return(d)
 
     else:
         for ctype, client in clients.items():
