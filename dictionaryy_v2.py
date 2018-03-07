@@ -67,8 +67,6 @@ def add_card(d, clients, word):
             elif ctype == 'Wordnik':
                 word_api = WordApi.WordApi(client)
                 defn_data = word_api.getDefinitions(word)
-                print("DEFN DATA")
-                print(defn_data)
                 if defn_data is not None:
                     defn = {}
                     for dfn in defn_data:
@@ -131,7 +129,7 @@ def main():
         elif choice == "q":
             return
         else:
-            print("please enter a valid choice: S, A, E, D, Q")
+            print("please enter a valid choice: S, A, D, Q")
 
 if __name__ == "__main__":
 	main()
