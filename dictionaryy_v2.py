@@ -92,6 +92,14 @@ def add_card(d, clients, word):
         write_dictionary_to_file(d)
         return(d)
 
+def look_up(d, word):
+    ## check if the word is in the dict
+    if word in d.Word.values:
+        ## if yes, print_definition
+        print_definition(d, word)
+    else:
+        print("That word doesn't exist in your dictionary!")
+
 ################
 ###   MAIN   ###
 ################
@@ -112,6 +120,7 @@ def main():
     while True:
         print("You have " + str(len(d)) + " words in your dictionary!")
         print("""        [S] Study!
+        [L] Look up a word
         [A] Add a word
         [D] Delete a card
         [P] Print my dictionary
@@ -120,6 +129,9 @@ def main():
         choice = str(choice.lower())
         if choice == "s":
             study(d)
+        elif choice == "l":
+            word = input("Word to look up: ")
+            look_up(d, word)
         elif choice == "a":
             word = input("Word to add: ")
             d = add_card(d, clients, word)
