@@ -1,0 +1,445 @@
+
+# Casting Data Types - Appendix
+
+### int
+
+
+```python
+# you can cast strings to ints
+int("5")
+```
+
+
+
+
+    5
+
+
+
+
+```python
+# it works the same when you save your string to a variable
+my_str = "5"
+int(my_str)
+```
+
+
+
+
+    5
+
+
+
+
+```python
+# when you cast floats to ints, the decimals get chopped off
+my_float = -500.51
+int(my_float)
+```
+
+
+
+
+    -500
+
+
+
+
+```python
+# you can cast bools to ints
+int(True)
+```
+
+
+
+
+    1
+
+
+
+
+```python
+int(False)
+```
+
+
+
+
+    0
+
+
+
+
+```python
+# you CAN'T, however, cast collections (lists, sets, or tuples) as ints
+# all of the following would throw you an Error
+int([1])
+int((1,))
+int({1})
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-6-69bcb7ec5c33> in <module>()
+          1 # you CAN'T, however, cast collections (lists, sets, or tuples) as ints
+          2 # all of the following would throw you an Error
+    ----> 3 int([1])
+          4 int((1,))
+          5 int({1})
+    
+
+    TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+
+### str 
+
+
+```python
+# you can cast numbers to strings
+my_float = 500.51
+str(my_float)
+```
+
+
+
+
+    '500.51'
+
+
+
+
+```python
+# ...then you can combine them w/ other strings, like this
+'This costs $' + str(my_float)
+```
+
+
+
+
+    'This costs $500.51'
+
+
+
+
+```python
+# you can cast a bool to a string
+str(True)
+```
+
+
+
+
+    'True'
+
+
+
+
+```python
+# you can also cast collections to strings, but this is rarely done...
+str([1, 2, 3])
+```
+
+
+
+
+    '[1, 2, 3]'
+
+
+
+
+```python
+str((4, 5, 6))
+```
+
+
+
+
+    '(4, 5, 6)'
+
+
+
+
+```python
+str({7, 8, 9})
+```
+
+
+
+
+    '{8, 9, 7}'
+
+
+
+
+```python
+str({'First': 'Amy', 'Last': 'Brown'})
+```
+
+
+
+
+    "{'First': 'Amy', 'Last': 'Brown'}"
+
+
+
+
+```python
+# ...because turning strings back into collections can be tricky
+list(str([1, 2, 3]))
+```
+
+
+
+
+    ['[', '1', ',', ' ', '2', ',', ' ', '3', ']']
+
+
+
+### bool
+
+
+```python
+# casting the int 0 to a bool results in False
+bool(0)
+```
+
+
+
+
+    False
+
+
+
+
+```python
+# casting ANY other int or float to a bool results in True
+bool(-1.99),  bool(6),  bool(86541354),  bool(0.0000000001)
+```
+
+
+
+
+    (True, True, True, True)
+
+
+
+
+```python
+# casting the empty string to a bool results in False
+bool("")
+```
+
+
+
+
+    False
+
+
+
+
+```python
+# casting ANY other string to a bool results in True
+bool("0"), bool(" "), bool("\n"), bool("Hey what's up?")
+```
+
+
+
+
+    (True, True, True, True)
+
+
+
+
+```python
+# similar to strings, casting any empty collection to bool returns False
+bool([]), bool({}), bool(tuple()), bool(dict())
+```
+
+
+
+
+    (False, False, False, False)
+
+
+
+
+```python
+# casting any non-empty collection returns True
+bool([1]), bool((3, 4)), bool({"a", "b"}), bool({"Name": "Mike"})
+```
+
+
+
+
+    (True, True, True, True)
+
+
+
+### list 
+
+
+```python
+# you can convert strings to lists, but remember how they behave
+list("Hello, bye!")
+```
+
+
+
+
+    ['H', 'e', 'l', 'l', 'o', ',', ' ', 'b', 'y', 'e', '!']
+
+
+
+
+```python
+# you CAN'T convert single numbers to lists by casting
+list(1)
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-22-892127630b03> in <module>()
+          1 # you CAN'T convert single numbers to lists by casting
+    ----> 2 list(1)
+    
+
+    TypeError: 'int' object is not iterable
+
+
+
+```python
+# but you can wrap numbers in brackets [] to create lists
+[3.14]
+```
+
+
+
+
+    [3.14]
+
+
+
+
+```python
+# to cast something to a list it must be "iterable", meaning you can step through it
+# all collections are iterable
+# sets and tupels work nicely w/ lists
+list((1, 2, 3)), list({4, 5, 6})
+```
+
+
+
+
+    ([1, 2, 3], [4, 5, 6])
+
+
+
+
+```python
+# warning: casting a dict to a list returns the dict's keys only
+list({"first_name": "Kat", "last_name": "Smith"})
+```
+
+
+
+
+    ['first_name', 'last_name']
+
+
+
+
+```python
+# you can deduplicate a list like this, nested casting!
+my_list = [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+list(set(my_list))
+```
+
+
+
+
+    [1, 2, 3, 4]
+
+
+
+### some useful tricks
+
+
+```python
+# another handy trick is turning two rows of table into a dictionary...
+# imagine these two lists are data from a table or spreadsheet
+row_1 = ['Team_A','Team_B','Team_C','Team_D','Team_E','Team_F']
+row_2 = [1931, 610, 2603, 1821, 1871, 1827]
+
+# we can "zip" these lists together.
+# this creates an iterable made up of tuples!
+# a zip is a special data object, don't worry about it much
+# here's what it looks like though...
+zip(row_1, row_2)
+```
+
+
+
+
+    <zip at 0x210353c2648>
+
+
+
+
+```python
+# zips, like any iterable, can be used in for loops...
+for my_tuple in zip(row_1, row_2):
+    print(my_tuple)
+```
+
+    ('Team_A', 1931)
+    ('Team_B', 610)
+    ('Team_C', 2603)
+    ('Team_D', 1821)
+    ('Team_E', 1871)
+    ('Team_F', 1827)
+    
+
+
+```python
+# but more importantly zips can be cast to dict.
+# so we can turn two rows of data into a dictionary
+# with just one line of code!
+dict(zip(row_1, row_2))
+```
+
+
+
+
+    {'Team_A': 1931,
+     'Team_B': 610,
+     'Team_C': 2603,
+     'Team_D': 1821,
+     'Team_E': 1871,
+     'Team_F': 1827}
+
+
+
+
+```python
+# another useful trick with dictionaries...
+# when you use dicts in for loops, you can turn each
+# dict entry into a tuple, (key, value), but
+# you must attach ".items()" to your dict variable
+my_dict = dict(zip(row_1, row_2))
+for key, value in my_dict.items():
+    print(key, "has", str(value).zfill(4), "points!")
+```
+
+    Team_A has 1931 points!
+    Team_B has 0610 points!
+    Team_C has 2603 points!
+    Team_D has 1821 points!
+    Team_E has 1871 points!
+    Team_F has 1827 points!
+    
