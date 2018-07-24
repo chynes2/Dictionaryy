@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="block1">
+	<h2>You have <b>{{num_words}}</b> words in your dictionary!</h2>
+	<h2>{{word}}</h2>
+	<div class="definition-block">
+		<h3>{{definition}}</h3>
+	</div>
+	
+	<form action="/study">
+		<input type="submit" value="Study Another Word"/>
+	</form>
+	<form action="/lookup_word">
+		<input type="submit" value="Look Up Another Word"/>
+	</form>
+</div>
+
+{% endblock %}

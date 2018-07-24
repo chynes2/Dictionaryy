@@ -2,12 +2,25 @@
 {% block body %}
 
 <div class="block1">
-<h1>Hello {{name}}</h1>
-	<h2>Here is a quote just for you:</h2>
-	<p>
-		{{quote}}
-	</p>
-<img src="http://www.naturalprogramming.com/images/smilingpython.gif">
+	<h2>You have <b>{{num_words}}</b> words in your dictionary!</h2>
+	<p>Please choose an option below</p>
+	<div class="main-menu">
+		<form action="/study">
+			<input type="submit" value="Study"/>
+		</form>
+		<form action="/add">
+			<input type="submit" value="Add Word"/>
+		</form>
+		<form action="/lookup_word">
+			<input type="submit" value="Look Up Word"/>
+		</form>
+		<form action="/delete">
+			<input type="submit" value="Delete Word"/>
+		</form>
+		<form action="/print_dict">
+			<input type="submit" value="Print Dictionary"/>
+		</form>
+	</div>
 </div>
 
 {% endblock %}

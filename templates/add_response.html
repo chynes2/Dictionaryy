@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="block1">
+	<h2>Attempting to add the word: {{word}}</h2>
+	<h3>{{response_string}}</h3>
+	<h2>You now have <b>{{num_words}}</b> words in your dictionary!</h2>
+	<form action="/print_dict">
+		<input type="submit" value="Print Dictionary"/>
+	</form>
+</div>
+
+{% endblock %}

@@ -90,6 +90,7 @@ cavort,{'Verb': ['play boisterously']}
 cenotaphs,{'Noun': ['a monument built to honor people whose remains are interred elsewhere or whose remains cannot be recovered']}
 charlatan,{'Noun': ['a flamboyant deceiver; one who attracts customers with tricks or jokes']}
 chignon,{'Noun': ['a roll of hair worn at the nape of the neck']}
+churlish,"{'Adjective': ['rude and boorish', 'having a bad disposition; surly']}"
 chyme,{'Noun': ['a semiliquid mass of partially digested food that passes from the stomach through the pyloric sphincter into the duodenum']}
 circumlocution,"{'Noun': ['a style that involves indirect ways of expressing things', 'an indirect way of expressing something']}"
 circumspect,{'Adjective': ['heedful of potential consequences']}
@@ -156,6 +157,7 @@ enuresis,{'Noun': ['inability to control the flow of urine and involuntary urina
 epaulet,{'Noun': ['adornment consisting of an ornamental cloth pad worn on the shoulder']}
 epicanthic,{'Adjective': ['relating to the epicanthus']}
 epicanthus,"{'Noun': [""a vertical fold of skin over the nasal canthus; typical for many east Asian peoples; sometimes occurs in Down's syndrome""]}"
+epigone,"{'Noun': ['an inferior imitator of some distinguished writer, artist, or musician']}"
 epigram,{'Noun': ['a witty saying']}
 epigraph,"{'Noun': ['a quotation at the beginning of some piece of writing', 'an engraved inscription']}"
 epitaph,"{'Noun': ['an inscription on a tombstone or monument in memory of the person buried there', 'a summary statement of commemoration for a dead person']}"
@@ -228,6 +230,7 @@ keen,"{'Noun': ['a funeral lament sung with loud wailing'], 'Verb': ['express gr
 kismet,{'Noun': ['(Islam']}
 kohl,{'Noun': ['a cosmetic preparation used by women in Egypt and Arabia to darken the edges of their eyelids']}
 labile,"{'Adjective': ['(chemistry, physics, biology', 'liable to change']}"
+languid,{'Adjective': ['lacking spirit or liveliness']}
 lank,"{'Adjective': ['long and thin and often limp', 'long and lean']}"
 lapidary,"{'Noun': ['an expert on precious stones and the art of cutting and engraving them', 'a skilled worker who cuts and engraves precious stones'], 'Adjective': ['of or relating to precious stones or the art of working with them']}"
 lascivious,{'Adjective': ['driven by lust; preoccupied with or exhibiting lustful desires']}

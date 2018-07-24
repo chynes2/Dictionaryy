@@ -9,18 +9,43 @@ body{
 
 h1{
 	font-family: 'Courier New', monospace;
-	font-weight: normal;
+	font-weight: bolder;
 	color: #A9A9A9;
 	font-size: 2.5em;
+}
+
+h2{
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: black;
+	font-size: 2em;
+}
+
+h3{
+	font-family: 'Courier New', monospace;
+	font-weight: normal;
+	color: black;
+	font-size: 1.5em;
+}
+
+div.page-margin-top{
+	height: 5%;
+}
+
+div.definition-block{
+	margin: 0% 10% 0% 10%
 }
 
 </style>
 </head>
 
 <body>
-	<h1>Dictionaryy</h1>
-	<h2>A Personal Dictionary App</h2>
-	
+	<div class="page-margin-top">
+
+	</div>
+	<h1><a href="/">Dictionaryy</a></h1>
+	<h3>A Personal Dictionary App</h3>
+
 	{% block body %}{% endblock %}
 </body>
 
