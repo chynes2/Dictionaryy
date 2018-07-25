@@ -40,6 +40,16 @@ div.definition-block{
 </head>
 
 <body>
+	{% with messages = get_flashed_messages() %}
+		{% if messages %}
+			<ul class='flashes'>
+			{% for message in messages %}
+				<li>{{message}}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+	{% endwith %}
+
 	<div class="page-margin-top">
 
 	</div>
@@ -47,6 +57,8 @@ div.definition-block{
 	<h3>A Personal Dictionary App</h3>
 
 	{% block body %}{% endblock %}
+
+	<a href='/logout'>Logout</a>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import pandas as pd
 import random
+import os
 from PyDictionary import PyDictionary
 from wordnik import *
 
@@ -10,9 +11,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    my_dict = pd.read_csv('My_Dictionary.csv')
-    num_words = len(my_dict)
-    return render_template('home.html', **locals())
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        my_dict = pd.read_csv('My_Dictionary.csv')
+        num_words = len(my_dict)
+        return render_template('home.html', **locals())
+
+@app.route('/login', methods=['POST'])
+def user_login():
+    if request.form['password'] == 'dictionaryy' and request.form['username'] == 'admin':
+        session['logged_in'] = True
+    else:
+        flash('Wrong username or password :/')
+    return home()
 
 @app.route('/study')
 def study():
@@ -124,5 +136,12 @@ def show_definition(word):
     definition = my_dict[my_dict.Word == word]['Definition'].values[0]
     return render_template('show_definition.html', **locals())
 
+@app.route('/logout')
+def logout():
+    session['logged_in'] = False
+    flash('You are logged out.')
+    return home()
+
 if __name__ == '__main__':
+    app.secret_key = os.urandom(12)
     app.run(debug=True)
