@@ -1,0 +1,4 @@
+- when you try to look up a word that doesn't exist, should be a button to add the word
+- add "add another word" button to the display page after a word is added
+- make output prettier with for loops to create divs
+- make inputs and buttons bigger, increase font size everywhere
