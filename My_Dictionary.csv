@@ -72,6 +72,7 @@ breviary,{'Noun': ['(Roman Catholic Church']}
 brisance,{'Noun': ['the shattering or crushing effect of a sudden release of energy as in an explosion']}
 bucolic,"{'Noun': ['a country person', 'a short poem descriptive of rural or pastoral life'], 'Adjective': ['(used with regard to idealized country life', 'relating to shepherds or herdsmen or devoted to raising sheep or cattle']}"
 buxom,"{'Adjective': [""(of a woman's body"", '(of a female body']}"
+cacophony,"{'Noun': ['a loud harsh or strident noise', 'loud confusing disagreeable sounds']}"
 cadge,"{'Verb': ['ask for and get free; be a parasite', 'obtain or seek to obtain by cadging or wheedling']}"
 cajole,"{'Verb': ['influence or urge by gentle urging, caressing, or flattering']}"
 calumny,"{'Noun': [""a false accusation of an offense or a malicious misrepresentation of someone's words or actions"", ""an abusive attack on a person's character or good name""]}"
@@ -90,11 +91,13 @@ cavort,{'Verb': ['play boisterously']}
 cenotaphs,{'Noun': ['a monument built to honor people whose remains are interred elsewhere or whose remains cannot be recovered']}
 charlatan,{'Noun': ['a flamboyant deceiver; one who attracts customers with tricks or jokes']}
 chignon,{'Noun': ['a roll of hair worn at the nape of the neck']}
+chud,{'verb': ['To champ; to bite.']}
 churlish,"{'Adjective': ['rude and boorish', 'having a bad disposition; surly']}"
 chyme,{'Noun': ['a semiliquid mass of partially digested food that passes from the stomach through the pyloric sphincter into the duodenum']}
 circumlocution,"{'Noun': ['a style that involves indirect ways of expressing things', 'an indirect way of expressing something']}"
 circumspect,{'Adjective': ['heedful of potential consequences']}
 circumvent,"{'Verb': ['surround so as to force to give up', 'beat through cleverness and wit', 'avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues']}"
+clairvoyant,"{'Noun': ['someone who has the power of clairvoyance'], 'Adjective': ['perceiving things beyond the natural range of the senses', 'foreseeing the future']}"
 codicil,{'Noun': ['a supplement to a will; a testamentary instrument intended to alter an already executed will']}
 cognomen,"{'Noun': [""a familiar name for a person (often a shortened version of a person's given name"", ""the name used to identify the members of a family (as distinguished from each member's given name""]}"
 comely,"{'Adjective': ['according with custom or propriety', 'very pleasing to the eye']}"
@@ -137,6 +140,7 @@ dirigibles,{'Noun': ['a steerable self-propelled aircraft']}
 discomfit,"{'Verb': [""cause to lose one's composure""]}"
 disconsolate,"{'Adjective': ['sad beyond comforting; incapable of being consoled', 'causing dejection']}"
 distaff,"{'Noun': ['the sphere of work by women', 'the staff on which wool or flax is wound before spinning'], 'Adjective': ['characteristic of or peculiar to a woman']}"
+door,"{'Noun': ['a swinging or sliding barrier that will close the entrance to a room or building or vehicle', 'the entrance (the space in a wall', 'anything providing a means of access (or escape', 'a structure where people live or work (usually ordered along a street or road', 'a room that is entered via a door']}"
 duplicitous,{'Adjective': ['marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another']}
 dyad,{'Noun': ['two items of the same kind']}
 dyspeptic,"{'Noun': ['a person suffering from indigestion'], 'Adjective': ['suffering from dyspepsia', 'irritable as if suffering from indigestion']}"
@@ -166,6 +170,7 @@ eponymous,{'Adjective': ['being or relating to or bearing the name of an eponym'
 ersatz,"{'Noun': ['an artificial or inferior substitute or imitation'], 'Adjective': ['artificial and inferior']}"
 erstwhile,"{'Adjective': ['belonging to some prior time'], 'Adverb': ['at a previous time']}"
 erumpent,{'adjective': ['Bursting through or as if through a surface or covering.']}
+eschaton,{'Noun': ['(New Testament']}
 exordial,"{'adjective': ['of or relating to an exordium, beginning or introduction']}"
 facsimile,"{'Noun': ['an exact copy or reproduction', 'duplicator that transmits the copy by wire or radio'], 'Verb': ['send something via a facsimile machine']}"
 falcate,{'Adjective': ['curved like a sickle']}
@@ -175,6 +180,7 @@ figurant,{'noun': ['A stage performer having no speaking part.']}
 fils,"{'Noun': ['100 Yemeni fils are worth one Yemeni rial', 'a fractional monetary unit in Bahrain and Iraq and Jordan and Kuwait; equal to one thousandth of a dinar']}"
 fin-de-siecle,"{'Adjective': ['marked by excessive self-indulgence and moral decay', 'relating to or characteristic of the end of a century (especially the end of the 19th century']}"
 finial,{'Noun': ['an ornament at the top of a spire or gable; usually a foliated fleur-de-lis']}
+flag,"{'Noun': ['emblem usually consisting of a rectangular piece of cloth of distinctive design', 'a listing printed in all issues of a newspaper or magazine (usually on the editorial page', 'plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals', 'a rectangular piece of fabric used as a signalling device', 'flagpole used to mark the position of the hole on a golf green', 'stratified stone that splits into pieces suitable as paving stones', 'a conspicuously marked or shaped tail'], 'Verb': ['communicate or signal with a flag', 'provide with a flag', 'droop, sink, or settle from or as if from pressure or loss of tautness', 'decorate with flags', 'become less intense']}"
 flagellants,"{'Noun': ['a person who is whipped or whips himself for sexual gratification', 'a person who whips himself as a religious penance']}"
 forceable,{'adjective': ['Able to be forced']}
 forcible,{'Adjective': ['impelled by physical force especially against resistance']}
@@ -182,6 +188,7 @@ frenetic,{'Adjective': ['excessively agitated; distraught with fear or other vio
 fricative,"{'Noun': ['a continuant consonant produced by breath moving against a narrowing of the vocal tract'], 'Adjective': [""of speech sounds produced by forcing air through a constricted passage (as `f', `s', `z', or `th' in both `thin' and `then'""]}"
 frisson,{'Noun': ['an almost pleasurable sensation of fright']}
 frustum,{'Noun': ['a truncated cone or pyramid; the part that is left when a cone or pyramid is cut by a plane parallel to the base and the apical part is removed']}
+fuck,"{'Noun': ['slang for sexual intercourse'], 'Verb': ['have sexual intercourse with']}"
 fulvous,{'adjective': ['Tawny-coloured.']}
 furtive,"{'Adjective': ['marked by quiet and caution and secrecy; taking pains to avoid being observed', 'secret and sly or sordid']}"
 garish,{'Adjective': ['tastelessly showy']}
@@ -216,6 +223,7 @@ impartible,{'adjective': ['Not partible; indivisible:  an impartible inheritance
 impassive,"{'Adjective': ['having or revealing little emotion or sensibility; not easily aroused or excited', 'deliberately impassive in manner']}"
 impecunious,{'Adjective': ['not having enough money to pay for necessities']}
 increscent,{'adjective': ['Showing a progressively larger lighted surface; waxing:  the increscent moon. ']}
+infinite,"{'Noun': ['the unlimited expanse in which everything is located'], 'Adjective': ['having no limits or boundaries in time or space or extent or magnitude', '(of verbs', 'as a participle or gerund or infinitive', 'too numerous to be counted', 'total and all-embracing']}"
 inguinal,{'Adjective': ['of or relating to or near the groin']}
 inimitable,{'Adjective': ['defying imitation; matchless']}
 insipid,"{'Adjective': ['lacking taste or flavor or tang', 'lacking interest or significance or impact']}"
@@ -226,6 +234,7 @@ invective,{'Noun': ['abusive or venomous language used to express blame or censu
 jamb,{'Noun': ['upright consisting of a vertical side member of a door or window frame']}
 japery,{'Noun': ['acting like a clown or buffoon']}
 jilted,"{'Verb': ['cast aside capriciously or unfeelingly'], 'Adjective': ['rebuffed (by a lover']}"
+joker,"{'Noun': ['a person who enjoys telling or playing jokes', 'a person who does something thoughtless or annoying', 'an inconspicuous clause in a document or bill that affects its meaning in a way that is not immediately apparent', 'a playing card that is usually printed with a picture of a jester']}"
 keen,"{'Noun': ['a funeral lament sung with loud wailing'], 'Verb': ['express grief verbally'], 'Adjective': ['having or demonstrating ability to recognize or draw fine distinctions', 'intense or sharp', 'very good', 'painful as if caused by a sharp instrument', 'having a sharp cutting edge or point']}"
 kismet,{'Noun': ['(Islam']}
 kohl,{'Noun': ['a cosmetic preparation used by women in Egypt and Arabia to darken the edges of their eyelids']}
@@ -258,6 +267,7 @@ minuet,"{'Noun': ['a stately court dance in the 17th century', 'a stately piece 
 mocks,"{'Noun': ['the act of mocking or ridiculing'], 'Verb': ['treat with contempt', 'imitate with mockery and derision']}"
 mordant,"{'Noun': ['a substance used to treat leather or other materials before dyeing; aids in dyeing process'], 'Adjective': ['harshly ironic or sinister', 'of a substance, especially a strong acid; capable of destroying or eating away by chemical action']}"
 mottle,"{'Noun': ['an irregular arrangement of patches of color'], 'Verb': ['mark with spots or blotches of different color or shades of color as if stained', 'colour with streaks or blotches of different shades']}"
+movie,{'Noun': ['a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement']}
 mucronate,{'adjective': ['Of or having a mucro; ending abruptly in a sharp point:  mucronate feathers; a mucronate leaf. ']}
 mullioned,{'Adjective': ['of windows; divided by vertical bars or piers usually of stone']}
 nacelle,{'Noun': ['a streamlined enclosure for an aircraft engine']}
@@ -286,6 +296,7 @@ passable,"{'Adjective': ['able to be passed or traversed or crossed', 'about ave
 passible,{'adjective': ['Capable of feeling or suffering; sensitive:  a passible type of personality. ']}
 patrician,"{'Noun': ['a person of refined upbringing and manners', 'a member of the aristocracy'], 'Adjective': ['befitting a person of noble origin', 'belonging to or characteristic of the nobility or aristocracy']}"
 pendentive,{'noun': ['Architecture   A triangular section of vaulting between the rim of a dome and each adjacent pair of the arches that support it.']}
+penumbra,{'Noun': ['a fringe region of partial shadow around an umbra']}
 perfidy,"{'Noun': ['betrayal of a trust', 'an act of deliberate betrayal']}"
 perfunctory,"{'Adjective': ['hasty and without attention to detail; not thorough', 'or cursory', 'done or produced as a formality only']}"
 peripatetic,"{'Noun': ['a person who walks from place to place', 'a follower of Aristotle or an adherent of Aristotelianism'], 'Adjective': ['of or relating to Aristotle or his philosophy', 'traveling especially on foot']}"
@@ -308,6 +319,7 @@ popliteal,{'Adjective': ['of or relating to the area behind the knee joint']}
 prandial,{'Adjective': ['of or relating to a meal']}
 preen,"{'Verb': [""clean with one's bill"", 'pride or congratulate (oneself', 'dress or groom with elaborate care']}"
 prehensile,"{'Adjective': ['adapted for grasping especially by wrapping around an object', 'having a keen intellect', 'immoderately desirous of acquiring e.g. wealth']}"
+pretty,"{'Adjective': ['pleasing by delicacy or grace; not imposing', '(used ironically'], 'Adverb': ['to certain extent or degree']}"
 priapic,"{'Adjective': ['overly concerned with masculinity and male sexuality', 'resembling or being a phallus']}"
 priapism,{'Noun': ['condition in which the penis is continually erect; usually painful and seldom with sexual arousal']}
 prim,"{'Verb': ['assume a prim appearance', ""contract one's lips"", 'dress primly'], 'Adjective': ['affectedly dainty or refined', 'exaggeratedly proper']}"
@@ -359,6 +371,7 @@ sty,"{'Noun': ['an infection of the sebaceous gland of the eyelid', 'a pen for s
 subjoin,{'Verb': ['add to the end']}
 suborned,"{'Verb': ['incite to commit a crime or an evil deed', 'procure (false testimony or perjury', 'induce to commit perjury or give false testimony']}"
 subsumption,"{'Noun': ['the premise of a syllogism that contains the minor term (which is the subject of the conclusion', 'incorporating something under a more general category']}"
+succubus,{'Noun': ['a female demon believed to have sexual intercourse with sleeping men']}
 suet,{'Noun': ['hard fat around the kidneys and loins in beef and sheep']}
 suety,{'Adjective': ['like or full of suet']}
 sulcus,{'Noun': ['(anatomy']}
@@ -382,11 +395,14 @@ tumid,"{'Adjective': ['ostentatiously lofty in style', 'abnormally distended esp
 turpitude,{'Noun': ['a corrupt or depraved or degenerate act or practice']}
 tyro,{'Noun': ['someone new to a field or activity']}
 tyronism,{'noun': ['the condition of being a tyro']}
+umbra,{'Noun': ['a region of complete shadow resulting from total obstruction of light']}
+umbrella,"{'Noun': ['a lightweight handheld collapsible canopy', 'a formation of military planes maintained over ground operations or targets', 'having the function of uniting a group of similar things'], 'Adjective': ['covering or applying simultaneously to a number of similar items or elements or groups']}"
 unbidden,"{'adjective': ['Not invited, asked, or requested; unasked:  unbidden guests; comments unbid and unwelcome. ']}"
 uncouth,{'Adjective': ['lacking refinement or cultivation or taste']}
 unctuous,{'Adjective': ['unpleasantly and excessively suave or ingratiating in manner or speech']}
 vacuole,{'Noun': ['a tiny cavity filled with fluid in the cytoplasm of a cell']}
 valise,{'Noun': ['a small overnight bag for short trips']}
+vapid,"{'Adjective': ['lacking taste or flavor or tang', 'lacking significance or liveliness or spirit or zest']}"
 vellum,"{'Noun': ['a heavy creamy-colored paper resembling parchment', 'fine parchment prepared from the skin of a young animal e.g. a calf or lamb']}"
 veneration,"{'Noun': ['a feeling of profound respect for someone or something', 'religious zeal; the willingness to serve God']}"
 verdant,{'Adjective': ['characterized by abundance of verdure']}
@@ -400,6 +416,7 @@ vitiated,"{'Verb': ['corrupt morally or by intemperance or sensuality', 'make im
 vivisected,{'Verb': ['cut (a body']}
 votaries,"{'Noun': ['one bound by vows to a religion or life of worship or service', 'a priest or priestess (or consecrated worshipper', 'a devoted (almost religiously so']}"
 vulgate,{'Noun': ['the Latin edition of the Bible translated from Hebrew and Greek mainly by St. Jerome at the end of the 4th century; as revised in 1592 it was adopted as the official text for the Roman Catholic Church']}
+wallet,{'Noun': ['a pocket-size case for holding papers and paper money']}
 winsome,{'Adjective': ['charming in a childlike or naive way']}
 xerophagy,"{'noun': ['A restrictive diet (of bread and water, for example) as a punishment or religious form of discipline.']}"
 yarmulke,{'Noun': ['a skullcap worn by religious Jews (especially at prayer']}
