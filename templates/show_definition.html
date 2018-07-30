@@ -11,7 +11,7 @@
 				<h3 style="font-weight: bold">{{pos.title()}}</h3>
 			</div>
 			{% for def_str in def_list %}
-				<div class="definition-block" style="border-color: gray">
+				<div class="definition-block" style="border: dashed; border-color: transparent black black black">
 					<h3>{{def_str}}</h3>
 				</div>
 			{% endfor %}
@@ -26,15 +26,15 @@
 	<div style="margin: 2% 0% 0% 0%"></div>
 
 	{% if not found %}
-	<form action="/add/{{word}}/">
-		<input type="submit" value="Add This Word to My Dictionary"/>
-	</form>
+		<form class='formButton' action="/add/{{word}}">
+			<input type="submit" value="Add This Word to My Dictionary"/>
+		</form>
 	{% endif %}
 
-	<form action="/study">
+	<form class='formButton' action="/study">
 		<input type="submit" value="Study Another Word"/>
 	</form>
-	<form action="/lookup_word">
+	<form class='formButton' action="/lookup_word">
 		<input type="submit" value="Look Up Another Word"/>
 	</form>
 </div>

@@ -52,6 +52,7 @@ astral,{'Adjective': ['being or relating to or resembling or emanating from star
 atavist,{'Noun': ['an organism that has the characteristics of a more primitive type of that organism']}
 atavistic,{'Adjective': ['characteristic of an atavist']}
 attar,{'Noun': ['essential oil or perfume obtained from flowers']}
+attenuate,"{'Verb': ['weaken the consistency of (a chemical substance', 'become weaker, in strength, value, or magnitude'], 'Adjective': ['reduced in strength']}"
 auspicious,{'Adjective': ['auguring favorable circumstances and good luck']}
 austere,"{'Adjective': ['severely simple', 'of a stern or strict bearing or demeanor; forbidding in aspect', 'practicing great self-denial']}"
 autolyzed,{'verb': ['Simple past tense and past participle of autolyze.']}
@@ -98,6 +99,7 @@ circumlocution,"{'Noun': ['a style that involves indirect ways of expressing thi
 circumspect,{'Adjective': ['heedful of potential consequences']}
 circumvent,"{'Verb': ['surround so as to force to give up', 'beat through cleverness and wit', 'avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues']}"
 clairvoyant,"{'Noun': ['someone who has the power of clairvoyance'], 'Adjective': ['perceiving things beyond the natural range of the senses', 'foreseeing the future']}"
+cliche,{'Noun': ['a trite or obvious remark']}
 codicil,{'Noun': ['a supplement to a will; a testamentary instrument intended to alter an already executed will']}
 cognomen,"{'Noun': [""a familiar name for a person (often a shortened version of a person's given name"", ""the name used to identify the members of a family (as distinguished from each member's given name""]}"
 comely,"{'Adjective': ['according with custom or propriety', 'very pleasing to the eye']}"
@@ -196,6 +198,7 @@ garish,{'Adjective': ['tastelessly showy']}
 gasket,{'Noun': ['seal consisting of a ring for packing pistons or sealing a pipe joint']}
 gelid,{'Adjective': ['extremely cold']}
 genteel,{'Adjective': ['marked by refinement in taste and manners']}
+gestate,"{'Verb': ['have the idea for', 'be pregnant with']}"
 gilt,"{'Noun': ['a coating of gold or of something that looks like gold'], 'Verb': ['decorate with, or as if with, gold leaf or liquid gold'], 'Adjective': ['having the deep slightly brownish color of gold', 'or golden']}"
 glabrous,{'Adjective': ['having no hair or similar growth; smooth']}
 glaucous,"{'Adjective': ['having a frosted look from a powdery coating, as on plants']}"

@@ -75,11 +75,7 @@ def add_post():
             response_string = 'Could not find a definition for that word :('
             return render_template('add_response.html', **locals())
         else:
-            response_string = ''
-            for pos, text in defn.items():
-                response_string += pos + '\n'
-                for t in text:
-                    response_string += '\t' + t + '\n'
+            response_string = defn
 
         new_entry = pd.DataFrame([[word, defn]], columns=my_dict.columns)
         my_dict = pd.concat([my_dict, new_entry], ignore_index=True)
@@ -147,13 +143,13 @@ def lookup_word():
 
 @app.route('/lookup_word', methods=['POST'])
 def lookup_word_post():
-    found = True
     word = request.form['word']
     my_dict = pd.read_csv('My_Dictionary.csv')
     num_words = len(my_dict)
     if word.lower() in set(my_dict.Word.str.lower().values):
         definition = my_dict[my_dict.Word == word]['Definition'].values[0]
         definition = ast.literal_eval(definition)
+        found = True
     else:
         definition = "There is no entry in your dictionary for that word :("
         found = False
@@ -190,6 +186,7 @@ def show_definition(word):
     num_words = len(my_dict)
     definition = my_dict[my_dict.Word == word]['Definition'].values[0]
     definition = ast.literal_eval(definition)
+    found = True
     return render_template('show_definition.html', **locals())
 
 @app.route('/logout')
