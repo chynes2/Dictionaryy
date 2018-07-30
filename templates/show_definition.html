@@ -4,10 +4,33 @@
 <div class="block1">
 	<h2>You have <b>{{num_words}}</b> words in your dictionary!</h2>
 	<h2>{{word}}</h2>
-	<div class="definition-block">
-		<h3>{{definition}}</h3>
-	</div>
+
+	{% if definition is mapping %}
+		{% for pos, def_list in definition.items() %}
+			<div class="definition-block">
+				<h3 style="font-weight: bold">{{pos.title()}}</h3>
+			</div>
+			{% for def_str in def_list %}
+				<div class="definition-block" style="border-color: gray">
+					<h3>{{def_str}}</h3>
+				</div>
+			{% endfor %}
+		{% endfor %}
 	
+	{% else %}
+		<div class="definition-block">
+			<h3>{{definition}}</h3>
+		</div>
+	{% endif %}
+
+	<div style="margin: 2% 0% 0% 0%"></div>
+
+	{% if not found %}
+	<form action="/add/{{word}}/">
+		<input type="submit" value="Add This Word to My Dictionary"/>
+	</form>
+	{% endif %}
+
 	<form action="/study">
 		<input type="submit" value="Study Another Word"/>
 	</form>
