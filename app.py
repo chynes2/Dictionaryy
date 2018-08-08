@@ -1,10 +1,14 @@
-from flask import Flask, flash, redirect, render_template, request, session, abort
+from flask import Flask, flash, redirect, render_template, request, session, abort, g
 from PyDictionary import PyDictionary
 from wordnik import *
 import pandas as pd
 import random
 import os
 import ast 
+import sqlite3
+from data.models import insert_user, retrieve_users
+
+path_to_dict = 'data/My_Dictionary.csv'
 
 pd.set_option('display.max_colwidth', -1)
 
@@ -12,24 +16,22 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    # if not session.get('logged_in'):
-    #     return render_template('login.html')
-    # else:
-    my_dict = pd.read_csv('My_Dictionary.csv')
-    num_words = len(my_dict)
-    return render_template('home.html', **locals())
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        my_dict = pd.read_csv(path_to_dict)
+        num_words = len(my_dict)
+        return render_template('home.html', **locals())
 
 @app.route('/login', methods=['POST'])
 def user_login():
-    if request.form['password'] == 'dictionaryy' and request.form['username'] == 'admin':
-        session['logged_in'] = True
-    else:
-        flash('Wrong username or password :/')
+    insert_user(request.form['username'], request.form['password'])
+    users = retrieve_users()
     return home()
 
 @app.route('/study')
 def study():
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     rand_index = random.randint(0,len(my_dict)-1)
     word = my_dict.Word[rand_index]
     return render_template('study.html', **locals())
@@ -41,7 +43,7 @@ def add():
 @app.route('/add', methods=['POST'])
 def add_post():
     word = request.form['word']
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
 
     if word in set(my_dict.Word.str.lower().values): # if it exists, print the below and quit
@@ -81,14 +83,14 @@ def add_post():
         my_dict = pd.concat([my_dict, new_entry], ignore_index=True)
         my_dict.sort_values('Word', inplace=True)
         my_dict.reset_index(drop=True, inplace=True)
-        my_dict.to_csv('My_Dictionary.csv', index=False)
+        my_dict.to_csv(path_to_dict, index=False)
         num_words = len(my_dict)
         
         return render_template('add_response.html', **locals())
 
 @app.route('/add/<string:word>/')
 def add_lookup(word):
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
 
     if word in set(my_dict.Word.str.lower().values): # if it exists, print the below and quit
@@ -132,7 +134,7 @@ def add_lookup(word):
         my_dict = pd.concat([my_dict, new_entry], ignore_index=True)
         my_dict.sort_values('Word', inplace=True)
         my_dict.reset_index(drop=True, inplace=True)
-        my_dict.to_csv('My_Dictionary.csv', index=False)
+        my_dict.to_csv(path_to_dict, index=False)
         num_words = len(my_dict)
         
         return render_template('add_response.html', **locals())
@@ -144,7 +146,7 @@ def lookup_word():
 @app.route('/lookup_word', methods=['POST'])
 def lookup_word_post():
     word = request.form['word']
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
     if word.lower() in set(my_dict.Word.str.lower().values):
         definition = my_dict[my_dict.Word == word]['Definition'].values[0]
@@ -162,11 +164,11 @@ def delete():
 @app.route('/delete', methods=['POST'])
 def delete_word_post():
     word = request.form['word']
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
     if word in set(my_dict.Word.str.lower().values):
         my_dict = my_dict[my_dict.Word != word].reset_index(drop=True)
-        my_dict.to_csv('My_Dictionary.csv', index=False)
+        my_dict.to_csv(path_to_dict, index=False)
         definition = 'deleted'
         num_words = len(my_dict)
     else:
@@ -175,14 +177,14 @@ def delete_word_post():
 
 @app.route('/print_dict')
 def print_dict():
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
     dict_html = my_dict.to_html(justify='left')
     return render_template('print.html', **locals())
 
 @app.route('/show_definition/<string:word>/')
 def show_definition(word):
-    my_dict = pd.read_csv('My_Dictionary.csv')
+    my_dict = pd.read_csv(path_to_dict)
     num_words = len(my_dict)
     definition = my_dict[my_dict.Word == word]['Definition'].values[0]
     definition = ast.literal_eval(definition)
