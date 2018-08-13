@@ -12,6 +12,7 @@ accede,"{'Verb': [""yield to another's wish or opinion"", 'take on duties or off
 accost,"{'Verb': ['speak to someone', 'approach with an offer of sexual favors']}"
 accretion,"{'Noun': ['an increase by natural growth or addition', 'something contributing to growth or increase', '(astronomy', '(biology', '(geology', 'as when a co-beneficiary dies or fails to meet some condition or rejects the inheritance']}"
 acme,"{'Noun': ['the highest level or degree attainable; the highest stage of development', 'the highest point (of something']}"
+acrimony,{'Noun': ['a rough and bitter manner']}
 acumen,"{'Noun': ['a tapering point', 'shrewdness shown by keen insight']}"
 adamant,"{'Noun': ['very hard native crystalline carbon valued as a gem'], 'Adjective': ['impervious to pleas, persuasion, requests, reason']}"
 adenoid,"{'Noun': ['a collection of lymphatic tissue in the throat behind the uvula (on the posterior wall and roof of the nasopharynx'], 'Adjective': ['relating to or resembling lymphatic glands or lymphoid tissue']}"
@@ -59,6 +60,7 @@ autolyzed,{'verb': ['Simple past tense and past participle of autolyze.']}
 avocation,{'Noun': ['an auxiliary activity']}
 avuncular,"{'Adjective': ['resembling a uncle in kindness or indulgence', 'being or relating to an uncle']}"
 bailiwick,"{'Noun': ['the area over which a bailiff has jurisdiction', 'a branch of knowledge']}"
+baroque,"{'Noun': ['the historic period from about 1600 until 1750 when the baroque style of art, architecture, and music flourished in Europe', 'elaborate and extensive ornamentation in decorative art and architecture that flourished in Europe in the 17th century'], 'Adjective': ['having elaborate symmetrical ornamentation', 'of or relating to or characteristic of the elaborately ornamented style of architecture, art, and music popular in Europe between 1600 and 1750']}"
 bathetic,{'Adjective': ['effusively or insincerely emotional']}
 batten,"{'Noun': ['stuffing made of rolls or sheets of cotton wool or synthetic fiber', 'a strip fixed to something to hold it firm'], 'Verb': ['furnish with battens', 'secure with battens']}"
 bedizen,"{'Verb': ['decorate tastelessly', 'dress up garishly and tastelessly']}"
@@ -69,10 +71,12 @@ besotted,"{'Verb': ['make dull or stupid or muddle with drunkenness or infatuati
 bilirubin,{'Noun': ['an orange-yellow pigment in the bile that forms as a product of hemoglobin; excess amounts in the blood produce the yellow appearance observed in jaundice']}
 bilk,"{'Verb': ['cheat somebody out of what is due, especially money', 'hinder or prevent (the efforts, plans, or desires', 'evade payment to', 'escape, either physically or mentally']}"
 blandishment,"{'Noun': ['flattery intended to persuade', 'the act of urging by means of teasing or flattery']}"
+boondoggle,"{'Noun': ['work of little or no value done merely to look busy'], 'Verb': ['do useless, wasteful, or trivial work']}"
 breviary,{'Noun': ['(Roman Catholic Church']}
 brisance,{'Noun': ['the shattering or crushing effect of a sudden release of energy as in an explosion']}
 bucolic,"{'Noun': ['a country person', 'a short poem descriptive of rural or pastoral life'], 'Adjective': ['(used with regard to idealized country life', 'relating to shepherds or herdsmen or devoted to raising sheep or cattle']}"
 buxom,"{'Adjective': [""(of a woman's body"", '(of a female body']}"
+byzantine,"{'Noun': ['a native or inhabitant of Byzantium or of the Byzantine Empire'], 'Adjective': ['of or relating to the Eastern Orthodox Church or the rites performed in it', 'of or relating to or characteristic of the Byzantine Empire or the ancient city of Byzantium', 'highly complex or intricate and occasionally devious']}"
 cacophony,"{'Noun': ['a loud harsh or strident noise', 'loud confusing disagreeable sounds']}"
 cadge,"{'Verb': ['ask for and get free; be a parasite', 'obtain or seek to obtain by cadging or wheedling']}"
 cajole,"{'Verb': ['influence or urge by gentle urging, caressing, or flattering']}"
@@ -183,6 +187,7 @@ figurant,{'noun': ['A stage performer having no speaking part.']}
 fils,"{'Noun': ['100 Yemeni fils are worth one Yemeni rial', 'a fractional monetary unit in Bahrain and Iraq and Jordan and Kuwait; equal to one thousandth of a dinar']}"
 fin-de-siecle,"{'Adjective': ['marked by excessive self-indulgence and moral decay', 'relating to or characteristic of the end of a century (especially the end of the 19th century']}"
 finial,{'Noun': ['an ornament at the top of a spire or gable; usually a foliated fleur-de-lis']}
+flabbergasted,"{'Verb': ['overcome with amazement'], 'Adjective': ['as if struck dumb with astonishment and surprise']}"
 flag,"{'Noun': ['emblem usually consisting of a rectangular piece of cloth of distinctive design', 'a listing printed in all issues of a newspaper or magazine (usually on the editorial page', 'plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals', 'a rectangular piece of fabric used as a signalling device', 'flagpole used to mark the position of the hole on a golf green', 'stratified stone that splits into pieces suitable as paving stones', 'a conspicuously marked or shaped tail'], 'Verb': ['communicate or signal with a flag', 'provide with a flag', 'droop, sink, or settle from or as if from pressure or loss of tautness', 'decorate with flags', 'become less intense']}"
 flagellants,"{'Noun': ['a person who is whipped or whips himself for sexual gratification', 'a person who whips himself as a religious penance']}"
 forceable,{'adjective': ['Able to be forced']}
@@ -191,7 +196,6 @@ frenetic,{'Adjective': ['excessively agitated; distraught with fear or other vio
 fricative,"{'Noun': ['a continuant consonant produced by breath moving against a narrowing of the vocal tract'], 'Adjective': [""of speech sounds produced by forcing air through a constricted passage (as `f', `s', `z', or `th' in both `thin' and `then'""]}"
 frisson,{'Noun': ['an almost pleasurable sensation of fright']}
 frustum,{'Noun': ['a truncated cone or pyramid; the part that is left when a cone or pyramid is cut by a plane parallel to the base and the apical part is removed']}
-fuck,"{'Noun': ['slang for sexual intercourse'], 'Verb': ['have sexual intercourse with']}"
 fulvous,{'adjective': ['Tawny-coloured.']}
 furtive,"{'Adjective': ['marked by quiet and caution and secrecy; taking pains to avoid being observed', 'secret and sly or sordid']}"
 garish,{'Adjective': ['tastelessly showy']}
@@ -239,7 +243,6 @@ isopolity,{'noun': ['Equal rights of citizenship in different communities; mutua
 jamb,{'Noun': ['upright consisting of a vertical side member of a door or window frame']}
 japery,{'Noun': ['acting like a clown or buffoon']}
 jilted,"{'Verb': ['cast aside capriciously or unfeelingly'], 'Adjective': ['rebuffed (by a lover']}"
-joker,"{'Noun': ['a person who enjoys telling or playing jokes', 'a person who does something thoughtless or annoying', 'an inconspicuous clause in a document or bill that affects its meaning in a way that is not immediately apparent', 'a playing card that is usually printed with a picture of a jester']}"
 keen,"{'Noun': ['a funeral lament sung with loud wailing'], 'Verb': ['express grief verbally'], 'Adjective': ['having or demonstrating ability to recognize or draw fine distinctions', 'intense or sharp', 'very good', 'painful as if caused by a sharp instrument', 'having a sharp cutting edge or point']}"
 kismet,{'Noun': ['(Islam']}
 kohl,{'Noun': ['a cosmetic preparation used by women in Egypt and Arabia to darken the edges of their eyelids']}
@@ -275,6 +278,7 @@ mordant,"{'Noun': ['a substance used to treat leather or other materials before 
 mottle,"{'Noun': ['an irregular arrangement of patches of color'], 'Verb': ['mark with spots or blotches of different color or shades of color as if stained', 'colour with streaks or blotches of different shades']}"
 movie,{'Noun': ['a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement']}
 mucronate,{'adjective': ['Of or having a mucro; ending abruptly in a sharp point:  mucronate feathers; a mucronate leaf. ']}
+mufti,"{'Noun': ['a jurist who interprets Muslim religious law', 'civilian dress worn by a person who is entitled to wear a military uniform']}"
 mullioned,{'Adjective': ['of windows; divided by vertical bars or piers usually of stone']}
 nacelle,{'Noun': ['a streamlined enclosure for an aircraft engine']}
 nacreous,"{'Adjective': ['consisting of or resembling mother-of-pearl', 'having a play of lustrous rainbow colors', 'or pearlescent', 'or opaline']}"
@@ -302,6 +306,7 @@ passable,"{'Adjective': ['able to be passed or traversed or crossed', 'about ave
 passible,{'adjective': ['Capable of feeling or suffering; sensitive:  a passible type of personality. ']}
 patrician,"{'Noun': ['a person of refined upbringing and manners', 'a member of the aristocracy'], 'Adjective': ['befitting a person of noble origin', 'belonging to or characteristic of the nobility or aristocracy']}"
 pendentive,{'noun': ['Architecture   A triangular section of vaulting between the rim of a dome and each adjacent pair of the arches that support it.']}
+penultimate,"{'Noun': ['the next to last syllable in a word'], 'Adjective': ['second last']}"
 penumbra,{'Noun': ['a fringe region of partial shadow around an umbra']}
 perfidy,"{'Noun': ['betrayal of a trust', 'an act of deliberate betrayal']}"
 perfunctory,"{'Adjective': ['hasty and without attention to detail; not thorough', 'or cursory', 'done or produced as a formality only']}"

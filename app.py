@@ -5,8 +5,8 @@ import pandas as pd
 import random
 import os
 import ast 
-import sqlite3
-from data.models import insert_user, retrieve_users
+#import sqlite3
+#from data.models import insert_user, retrieve_users
 
 path_to_dict = 'data/My_Dictionary.csv'
 
@@ -16,12 +16,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    if not session.get('logged_in'):
-        return render_template('login.html')
-    else:
-        my_dict = pd.read_csv(path_to_dict)
-        num_words = len(my_dict)
-        return render_template('home.html', **locals())
+    # if not session.get('logged_in'):
+    #     return render_template('login.html')
+    # else:
+    my_dict = pd.read_csv(path_to_dict)
+    num_words = len(my_dict)
+    return render_template('home.html', **locals())
 
 @app.route('/login', methods=['POST'])
 def user_login():
