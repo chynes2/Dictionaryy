@@ -87,6 +87,7 @@ canted,"{'Verb': ['heel over'], 'Adjective': ['departing or being caused to depa
 canthus,{'Noun': ['either of the corners of the eye where the upper and lower eyelids meet']}
 capacious,{'Adjective': ['large in capacity']}
 carouse,"{'Noun': ['revelry in drinking; a merry drinking party'], 'Verb': ['engage in boisterous, drunken merrymaking']}"
+casanova,"{'Noun': ['an Italian adventurer who wrote vivid accounts of his sexual encounters (1725-1798', 'any man noted for his amorous adventures']}"
 catabolic,"{'Adjective': ['relating to or characterized by catabolism', 'characterized by destructive metabolism']}"
 catabolism,{'Noun': ['breakdown in living organisms of more complex substances into simpler ones together with release of energy']}
 catastate,{'noun': ['A substance formed by a catabolic process.']}
@@ -153,6 +154,8 @@ dyspeptic,"{'Noun': ['a person suffering from indigestion'], 'Adjective': ['suff
 ebullient,{'Adjective': ['joyously unrestrained']}
 eclat,"{'Noun': ['enthusiastic approval', 'ceremonial elegance and splendor', 'brilliant or conspicuous success or effect']}"
 educe,"{'Verb': ['deduce (a principle', 'a meaning', 'develop or evolve from a latent or potential state']}"
+effluvia,{'Noun': ['a foul-smelling outflow or vapor (especially a gaseous waste']}
+effluvial,{'adjective': ['Of or pertaining to effluvia.']}
 eidetic,{'Adjective': ['of visual imagery of almost photographic accuracy']}
 elegiac,"{'Adjective': ['resembling or characteristic of or appropriate to an elegy', 'expressing sorrow often for something past']}"
 elision,"{'Noun': ['omission of a sound between two words (usually a vowel and the end of one word or the beginning of the next', 'a deliberate act of omission']}"
@@ -190,6 +193,7 @@ finial,{'Noun': ['an ornament at the top of a spire or gable; usually a foliated
 flabbergasted,"{'Verb': ['overcome with amazement'], 'Adjective': ['as if struck dumb with astonishment and surprise']}"
 flag,"{'Noun': ['emblem usually consisting of a rectangular piece of cloth of distinctive design', 'a listing printed in all issues of a newspaper or magazine (usually on the editorial page', 'plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals', 'a rectangular piece of fabric used as a signalling device', 'flagpole used to mark the position of the hole on a golf green', 'stratified stone that splits into pieces suitable as paving stones', 'a conspicuously marked or shaped tail'], 'Verb': ['communicate or signal with a flag', 'provide with a flag', 'droop, sink, or settle from or as if from pressure or loss of tautness', 'decorate with flags', 'become less intense']}"
 flagellants,"{'Noun': ['a person who is whipped or whips himself for sexual gratification', 'a person who whips himself as a religious penance']}"
+fop,{'Noun': ['a man who is much concerned with his dress and appearance']}
 forceable,{'adjective': ['Able to be forced']}
 forcible,{'Adjective': ['impelled by physical force especially against resistance']}
 frenetic,{'Adjective': ['excessively agitated; distraught with fear or other violent emotion']}
@@ -212,6 +216,7 @@ guilloche,{'Noun': ['an architectural decoration formed by two intersecting wavy
 gyrus,{'Noun': ['a convex fold or elevation in the surface of the brain']}
 hackle,"{'Noun': ['long slender feather on the necks of e.g. turkeys and pheasants'], 'Verb': ['comb with a heckle']}"
 halcyon,"{'Noun': ['(Greek mythology', 'a large kingfisher widely distributed in warmer parts of the Old World', 'a mythical bird said to breed at the time of the winter solstice in a nest floating on the sea and to have the power of calming the winds and waves'], 'Adjective': ['idyllically calm and peaceful; suggesting happy tranquillity', 'marked by peace and prosperity']}"
+hale,"{'Noun': [""a soldier of the American Revolution who was hanged as a spy by the British; his last words were supposed to have been `I only regret that I have but one life to give for my country' (1755-1776"", 'United States astronomer who discovered that sunspots are associated with strong magnetic fields (1868-1938', 'prolific United States writer (1822-1909'], 'Verb': ['to cause to do through pressure or necessity, by physical, moral or intellectual means', 'draw slowly or heavily'], 'Adjective': ['exhibiting or restored to vigorous good health']}"
 hangdog,"{'Adjective': ['showing a sense of guilt', 'frightened into submission or compliance']}"
 hapless,{'Adjective': ['deserving or inciting pity']}
 hauteur,{'Noun': ['overbearing pride evidenced by a superior manner toward inferiors']}
@@ -411,6 +416,7 @@ umbrella,"{'Noun': ['a lightweight handheld collapsible canopy', 'a formation of
 unbidden,"{'adjective': ['Not invited, asked, or requested; unasked:  unbidden guests; comments unbid and unwelcome. ']}"
 uncouth,{'Adjective': ['lacking refinement or cultivation or taste']}
 unctuous,{'Adjective': ['unpleasantly and excessively suave or ingratiating in manner or speech']}
+urbane,{'Adjective': ['showing a high degree of refinement and the assurance that comes from wide social experience']}
 vacuole,{'Noun': ['a tiny cavity filled with fluid in the cytoplasm of a cell']}
 valise,{'Noun': ['a small overnight bag for short trips']}
 vapid,"{'Adjective': ['lacking taste or flavor or tang', 'lacking significance or liveliness or spirit or zest']}"
