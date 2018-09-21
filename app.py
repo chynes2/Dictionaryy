@@ -44,7 +44,6 @@ def add():
 def add_post():
     word = request.form['word']
     my_dict = pd.read_csv(path_to_dict)
-    num_words = len(my_dict)
 
     if word in set(my_dict.Word.str.lower().values): # if it exists, print the below and quit
         response_string = "This word already exists in the dictionary!"
