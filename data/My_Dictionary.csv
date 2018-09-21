@@ -147,7 +147,6 @@ dirigibles,{'Noun': ['a steerable self-propelled aircraft']}
 discomfit,"{'Verb': [""cause to lose one's composure""]}"
 disconsolate,"{'Adjective': ['sad beyond comforting; incapable of being consoled', 'causing dejection']}"
 distaff,"{'Noun': ['the sphere of work by women', 'the staff on which wool or flax is wound before spinning'], 'Adjective': ['characteristic of or peculiar to a woman']}"
-door,"{'Noun': ['a swinging or sliding barrier that will close the entrance to a room or building or vehicle', 'the entrance (the space in a wall) through which you enter or leave a room or building; the space that a door can close', 'anything providing a means of access (or escape)', 'a structure where people live or work (usually ordered along a street or road)', 'a room that is entered via a door']}"
 duplicitous,{'Adjective': ['marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another']}
 dyad,{'Noun': ['two items of the same kind']}
 dyspeptic,"{'Noun': ['a person suffering from indigestion'], 'Adjective': ['suffering from dyspepsia', 'irritable as if suffering from indigestion']}"
@@ -191,7 +190,6 @@ fils,"{'Noun': ['100 Yemeni fils are worth one Yemeni rial', 'a fractional monet
 fin-de-siecle,"{'Adjective': ['marked by excessive self-indulgence and moral decay', 'relating to or characteristic of the end of a century (especially the end of the 19th century)']}"
 finial,{'Noun': ['an ornament at the top of a spire or gable; usually a foliated fleur-de-lis']}
 flabbergasted,"{'Verb': ['overcome with amazement'], 'Adjective': ['as if struck dumb with astonishment and surprise']}"
-flag,"{'Noun': ['emblem usually consisting of a rectangular piece of cloth of distinctive design', 'a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.', 'plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals', 'a rectangular piece of fabric used as a signalling device', 'flagpole used to mark the position of the hole on a golf green', 'stratified stone that splits into pieces suitable as paving stones', 'a conspicuously marked or shaped tail'], 'Verb': ['communicate or signal with a flag', 'provide with a flag', 'droop, sink, or settle from or as if from pressure or loss of tautness', 'decorate with flags', 'become less intense']}"
 flagellants,"{'Noun': ['a person who is whipped or whips himself for sexual gratification', 'a person who whips himself as a religious penance']}"
 fop,{'Noun': ['a man who is much concerned with his dress and appearance']}
 forceable,{'adjective': ['Able to be forced']}
@@ -236,7 +234,6 @@ impartible,{'adjective': ['Not partible; indivisible:  an impartible inheritance
 impassive,"{'Adjective': ['having or revealing little emotion or sensibility; not easily aroused or excited', 'deliberately impassive in manner']}"
 impecunious,{'Adjective': ['not having enough money to pay for necessities']}
 increscent,{'adjective': ['Showing a progressively larger lighted surface; waxing:  the increscent moon. ']}
-infinite,"{'Noun': ['the unlimited expanse in which everything is located'], 'Adjective': ['having no limits or boundaries in time or space or extent or magnitude', '(of verbs) not having tense, person, or number (as a participle or gerund or infinitive)', 'too numerous to be counted', 'total and all-embracing']}"
 inguinal,{'Adjective': ['of or relating to or near the groin']}
 inimitable,{'Adjective': ['defying imitation; matchless']}
 insipid,"{'Adjective': ['lacking taste or flavor or tang', 'lacking interest or significance or impact']}"
@@ -274,14 +271,11 @@ matriculate,"{'Noun': ['someone who has been admitted to a college or university
 meatus,{'Noun': ['a natural body passageway']}
 megalomania,{'Noun': ['a psychological state characterized by delusions of grandeur']}
 meninges,{'Noun': ['a membrane (one of 3) that envelops the brain and spinal cord']}
-menses,{'Noun': ['the monthly discharge of blood from the uterus of nonpregnant women from puberty to menopause']}
 miasma,"{'Noun': ['an unwholesome atmosphere', 'unhealthy vapors rising from the ground or other sources']}"
 minuet,"{'Noun': ['a stately court dance in the 17th century', 'a stately piece of music composed for dancing the minuet; often incorporated into a sonata or suite']}"
-mocks,"{'Noun': ['the act of mocking or ridiculing'], 'Verb': ['treat with contempt', 'imitate with mockery and derision']}"
 mollify,"{'Verb': ['cause to be more favorably inclined; gain the good will of', 'make more temperate, acceptable, or suitable by adding something else', 'make less rigid or softer']}"
 mordant,"{'Noun': ['a substance used to treat leather or other materials before dyeing; aids in dyeing process'], 'Adjective': ['harshly ironic or sinister', 'of a substance, especially a strong acid; capable of destroying or eating away by chemical action']}"
 mottle,"{'Noun': ['an irregular arrangement of patches of color'], 'Verb': ['mark with spots or blotches of different color or shades of color as if stained', 'colour with streaks or blotches of different shades']}"
-movie,{'Noun': ['a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement']}
 mucronate,{'adjective': ['Of or having a mucro; ending abruptly in a sharp point:  mucronate feathers; a mucronate leaf. ']}
 mufti,"{'Noun': ['a jurist who interprets Muslim religious law', 'civilian dress worn by a person who is entitled to wear a military uniform']}"
 mullioned,{'Adjective': ['of windows; divided by vertical bars or piers usually of stone']}
@@ -434,7 +428,6 @@ vitiated,"{'Verb': ['corrupt morally or by intemperance or sensuality', 'make im
 vivisected,{'Verb': ['cut (a body) open while still alive']}
 votaries,"{'Noun': ['one bound by vows to a religion or life of worship or service', 'a priest or priestess (or consecrated worshipper) in a non-Christian religion or cult', 'a devoted (almost religiously so) adherent of a cause or person or activity']}"
 vulgate,{'Noun': ['the Latin edition of the Bible translated from Hebrew and Greek mainly by St. Jerome at the end of the 4th century; as revised in 1592 it was adopted as the official text for the Roman Catholic Church']}
-wallet,{'Noun': ['a pocket-size case for holding papers and paper money']}
 winsome,{'Adjective': ['charming in a childlike or naive way']}
 xerophagy,"{'noun': ['A restrictive diet (of bread and water, for example) as a punishment or religious form of discipline.']}"
 yarmulke,{'Noun': ['a skullcap worn by religious Jews (especially at prayer)']}
