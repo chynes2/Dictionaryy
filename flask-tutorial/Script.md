@@ -1,6 +1,6 @@
 # Flask Lunch-and-Learn Script
 
-*Thesis*: Python syncs up nicely with HTML/CSS to create dynamic web applications.
+**Thesis**: Python syncs up nicely with HTML/CSS to create dynamic web applications.
 
 ### Setup
 1. Download my Dictionaryy repository
