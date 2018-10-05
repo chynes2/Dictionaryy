@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="block1">
+	<h2>You have <b>{{num_words}}</b> words in your dictionary!</h2>
+	<div class="definition-block">
+		{{dict_html|safe}}
+	</div>
+</div>
+
+{% endblock %}

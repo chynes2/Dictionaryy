@@ -147,7 +147,7 @@ def main():
         elif choice == "q":
             return
         else:
-            print("please enter a valid choice: S, A, D, Q")
+            print("please enter a valid choice: S, L, A, D, P, Q")
 
 if __name__ == "__main__":
 	main()

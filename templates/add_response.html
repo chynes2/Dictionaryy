@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="block1">
+	<h2>Attempting to add the word: {{word}}</h2>
+
+	{% if response_string is mapping %}
+		{% for pos, def_list in response_string.items() %}
+			<div class="definition-block">
+				<h3 style="font-weight: bold">{{pos.title()}}</h3>
+			</div>
+			{% for def_str in def_list %}
+				<div class="definition-block" style="border: dashed; border-color: transparent black black black">
+					<h3>{{def_str}}</h3>
+				</div>
+			{% endfor %}
+		{% endfor %}
+	
+	{% else %}
+		<div class="definition-block">
+			<h3>{{response_string}}</h3>
+			{% if response_string == "This word already exists in the dictionary!" %}
+				<form action="/show_definition/{{word}}">
+					<input type="submit" value="Show Definition"/>
+				</form>
+			{% endif %}
+		</div>
+	{% endif %}
+
+	<h2>You now have <b>{{num_words}}</b> words in your dictionary!</h2>
+
+	<form action="/add">
+		<input type="submit" value="Add Another Word"/>
+	</form>
+</div>
+
+{% endblock %}

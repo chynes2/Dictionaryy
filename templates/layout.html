@@ -1,0 +1,126 @@
+<html>
+<head>
+	<title>Dictionaryy</title>
+<style>
+
+body{
+	text-align: center;
+}
+
+h1{
+	font-family: 'Courier New', monospace;
+	font-weight: bolder;
+	color: #A9A9A9;
+	font-size: 2.5em;
+}
+
+h2{
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: black;
+	font-size: 2em;
+}
+
+h3{
+	font-family: 'Courier New', monospace;
+	font-weight: normal;
+	color: black;
+	font-size: 1.5em;
+}
+
+div.page-margin-top{
+	height: 5%;
+}
+
+div.definition-block{
+	margin: 0% 10% 0% 10%;
+	border: solid;
+}
+
+input[type=submit] {
+	-moz-box-shadow: 0px 10px 14px -7px #ffffff;
+	-webkit-box-shadow: 0px 10px 14px -7px #ffffff;
+	box-shadow: 0px 10px 14px -7px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:31px;
+	-webkit-border-radius:31px;
+	border-radius:31px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:16px;
+	font-weight:bold;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+input[type=submit]:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	border-color:purple;
+}
+input[type=submit]:active {
+	position:relative;
+	top:1px;
+}
+
+input[type=text],
+input[type=username],
+input[type=password] {
+     padding: 7px;
+     font-size: 20px;
+     font-family: Courier New
+     border-width: 1px;
+     border-color: #000000;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 9px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.0);
+     text-shadow: 0px 0px 5px rgba(255,255,255,.0);
+}
+input[type=text]:focus {
+     outline:none;
+}
+
+
+</style>
+</head>
+
+<body>
+	{% with messages = get_flashed_messages() %}
+		{% if messages %}
+			<ul class='flashes'>
+			{% for message in messages %}
+				<li>{{message}}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+	{% endwith %}
+
+	<div class="page-margin-top">
+
+	</div>
+	<h1><a href="/">Dictionaryy</a></h1>
+	<h3>A Personal Dictionary App</h3>
+
+	{% block body %}{% endblock %}
+
+	<a href='/logout'>Logout</a>
+</body>
+
+</html>

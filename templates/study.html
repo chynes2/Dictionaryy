@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="block1">
+	<h2>You are about to study, my dude!</h2>
+
+	<p>What is the definition of <h3>{{word}}</h3>?</p>
+
+	<form action="/show_definition/{{word}}/">
+		<input type="submit" value="Show Definition"/>
+	</form>
+</div>
+
+{% endblock %}
