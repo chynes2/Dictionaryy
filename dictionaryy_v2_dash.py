@@ -140,6 +140,7 @@ def main():
 
 # Load logos / icons
 dictionaryy_logo = 'https://tco17.topcoder.com/wp-content/uploads/sites/2/2017/02/bah-only-logo.png'
+developer_logo = ''
 
 # App initialization
 app = dash.Dash()
@@ -159,43 +160,21 @@ app.layout = html.Div([
 
 index_layout = html.Div([
     html.Div([
-
-        # Dash by Plotly logo image that is linked to the dash website
         html.Div([
-            dcc.Link(
-                html.Img(src=dictionaryy_logo,
-                    style={
-                        'height': '55px',
-                        'float': 'left',
-                        'position': 'absolute',
-                        'top': '23px',
-                        'left': '15px'
-                    },
-                ),
-                href='http://plot.ly/products/dash/'
-            )]
-        ),
-
-        # Booz Allen logo image that is linked to the Booz Allen website
-        html.Div([
-            dcc.Link(
-                html.Img(src='resources/dev_logo.png',
-                    style={
-                        'height': '30px',
-                        'float': 'right',
-                        'position': 'absolute',
-                        'top': '35px',
-                        'right': '25px'
-
-                    },
-                ),
-                href='http://www.hynes.xyz'
-            )]
-        )],
-        style={
-            'padding': '5px 5px 0px 5px',
-        }
-    )
+            html.P('Dictionaryy',
+                  style={
+                      'fontSize': '30pt',
+                      'fontFamily': 'verdana',
+                      'display': 'inline-block'
+              })
+            ],
+            style={
+                'padding': '5px 5px 0px 5px',
+                'width': '100%',
+                'textAlign': 'center'
+                }
+        )
+    ])
 ])
 
 # Adjust page contents based on url pathname
