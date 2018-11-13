@@ -75,6 +75,7 @@ boondoggle,"{'Noun': ['work of little or no value done merely to look busy'], 'V
 breviary,{'Noun': ['(Roman Catholic Church) a book of prayers to be recited daily certain priests and members of religious orders']}
 brisance,{'Noun': ['the shattering or crushing effect of a sudden release of energy as in an explosion']}
 bucolic,"{'Noun': ['a country person', 'a short poem descriptive of rural or pastoral life'], 'Adjective': ['(used with regard to idealized country life) idyllically rustic', 'relating to shepherds or herdsmen or devoted to raising sheep or cattle']}"
+buskin,{'Noun': ['a boot reaching halfway up to the knee']}
 buxom,"{'Adjective': [""(of a woman's body) having a large bosom and pleasing curves"", '(of a female body) healthily plump and vigorous']}"
 byzantine,"{'Noun': ['a native or inhabitant of Byzantium or of the Byzantine Empire'], 'Adjective': ['of or relating to the Eastern Orthodox Church or the rites performed in it', 'of or relating to or characteristic of the Byzantine Empire or the ancient city of Byzantium', 'highly complex or intricate and occasionally devious']}"
 cacophony,"{'Noun': ['a loud harsh or strident noise', 'loud confusing disagreeable sounds']}"
@@ -128,6 +129,7 @@ credulity,{'Noun': ['tendency to believe readily']}
 croupiers,{'Noun': ['someone who collects and pays bets at a gaming table']}
 cunctation,{'Noun': ['the act of procrastinating; putting off or delaying or defering an action to a later time']}
 cuspate,{'Adjective': ['having cusps or points']}
+cynosure,"{'Noun': ['something that provides guidance (as Polaris guides mariners', 'something that strongly attracts attention and admiration']}"
 dado,"{'Noun': ['panel forming the lower part of an interior wall when it is finished differently from the rest of the wall', 'the section of a pedestal between the base and the surbase', 'a rectangular groove cut into a board so that another piece can fit into it'], 'Verb': ['provide with a dado', 'cut a dado into or fit into a dado']}"
 deciduous,"{'Adjective': ['(of plants and shrubs) shedding foliage at the end of the growing season', '(of teeth, antlers, etc.) being shed at the end of a period of growth']}"
 declaim,"{'Verb': ['recite in elocution', 'speak against in an impassioned manner']}"
@@ -350,6 +352,7 @@ rictus,{'Noun': ['a gaping grimace']}
 rivet,"{'Noun': ['ornament consisting of a circular rounded protuberance (as on a vault or shield or belt)', 'heavy pin having a head at one end and the other end being hammered flat after being passed through holes in the pieces that are fastened together'], 'Verb': [""direct one's attention on something"", 'fasten with a rivet or rivets', ""hold (someone's attention)""]}"
 rococo,"{'Noun': ['fanciful but graceful asymmetric ornamentation in art and architecture that originated in France in the 18th century'], 'Adjective': ['having excessive asymmetrical ornamentation']}"
 rubicund,{'Adjective': ['inclined to a healthy reddish color often associated with outdoor life']}
+sable,"{'Noun': [""an artist's brush made of sable hairs"", 'the expensive dark brown fur of the marten', 'a very dark black', 'a scarf (or trimming', 'marten of northern Asian forests having luxuriant dark brown fur'], 'Adjective': ['of a dark somewhat brownish black']}"
 salacious,"{'Adjective': ['characterized by lust', 'suggestive of or tending to moral looseness']}"
 sangfroid,"{'noun': ['composure, self-possession or imperturbability especially when in a dangerous situation']}"
 sartorial,"{'Adjective': ['of or relating to the sartorius muscle', 'of or relating to a tailor or to tailoring']}"
@@ -371,6 +374,7 @@ skein,{'Noun': ['coils of worsted yarn']}
 sobriquet,"{'Noun': [""a familiar name for a person (often a shortened version of a person's given name)""]}"
 somatic,{'Adjective': ['affecting or characteristic of the body as opposed to the mind or spirit']}
 spoonerism,{'Noun': ['transposition of initial consonants in a pair of words']}
+stereotomy,{'noun': ['The cutting or dissection of solids.']}
 stevedore,{'Noun': ['a laborer who loads and unloads vessels in a port']}
 stolid,{'Adjective': ['having or revealing little emotion or sensibility; not easily aroused or excited']}
 strabismic,"{'adjective': ['Afflicted with, or pertaining to, strabismus.']}"
