@@ -1,6 +1,4 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort, g
-from flask_restful import Api
-from resources import User
 from PyDictionary import PyDictionary
 from wordnik import *
 import pandas as pd
@@ -15,7 +13,6 @@ path_to_dict = 'data/My_Dictionary.csv'
 pd.set_option('display.max_colwidth', -1)
 
 app = Flask(__name__)
-api = Api(app)
 
 @app.route('/')
 def home():
